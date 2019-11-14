@@ -13,6 +13,8 @@ public class makeChange {
 
 		if (price < 0 || payment < 0) {
 			System.out.println("Please enter positive number");
+		} else if (change == 0) {
+			System.out.println("No Change is needed");
 		}
 
 		else if (change < 0) {
